@@ -60,7 +60,7 @@ securityContext:
   enable: true
 
 adService:
-  create: true
+  create: false
   name: adservice
   resources:
     requests:
