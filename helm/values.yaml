@@ -71,7 +71,7 @@ adService:
       memory: 300Mi
 
 cartService:
-  create: true
+  create: false
   name: cartservice
   resources:
     requests:
