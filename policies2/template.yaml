@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8srequiredprobes
+  namespace: default
   annotations:
     argocd.argoproj.io/sync-wave: "1"  
 spec:
